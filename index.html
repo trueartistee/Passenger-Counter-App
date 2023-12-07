@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Passenger Counter App</title>
+        <link rel="stylesheet" href="passengerCounter.css" type="text/css">
+    </head>
+    <body>
+
+        <section>
+            
+            <h1>Passenger Count</h1>
+            <h1 id="count-el">0</h1>
+            <div class="buttons">
+                <button id="btn1" onclick="increment()">INCREMENT</button>
+                <button id="btn2" onclick="save()">SAVE</button>
+            </div>
+            <p id="save-el">Previous Entries: </p>
+            <p id="check-el" onclick="check()">Check all previous entries</p>
+            <p id="list"></p>
+            <p id="close" onclick="closeList()">Close List</p>
+        </section>
+        <script src="passengerCounter.js" type="text/javascript"></script>
+    </body>
+    </html>
